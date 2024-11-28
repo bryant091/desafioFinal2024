@@ -1,0 +1,23 @@
+uuid: 675b31e7-4371-4d6b-9a4e-6774c5fc2dc3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_altura
+    - node.type.cachoeira
+id: node.cachoeira.field_altura
+field_name: field_altura
+entity_type: node
+bundle: cachoeira
+label: Altura
+description: 'Altura da cachoeira'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 800.0
+  prefix: ''
+  suffix: Metros
+field_type: decimal

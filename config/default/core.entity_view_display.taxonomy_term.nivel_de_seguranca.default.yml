@@ -1,0 +1,22 @@
+uuid: 8b0e13d6-529b-492e-98b7-c6529fe24688
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.nivel_de_seguranca
+  module:
+    - text
+id: taxonomy_term.nivel_de_seguranca.default
+targetEntityType: taxonomy_term
+bundle: nivel_de_seguranca
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

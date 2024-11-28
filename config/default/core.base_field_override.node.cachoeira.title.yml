@@ -1,0 +1,18 @@
+uuid: 635b4572-0ac1-477c-add1-56b9e7f5be9e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.cachoeira
+id: node.cachoeira.title
+field_name: title
+entity_type: node
+bundle: cachoeira
+label: Nome
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

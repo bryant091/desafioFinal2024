@@ -1,0 +1,29 @@
+uuid: f1635eb4-cbfa-4d38-9500-cb805b915c40
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nivel_de_seguranca
+    - node.type.parque_de_diversao
+    - taxonomy.vocabulary.nivel_de_seguranca
+id: node.parque_de_diversao.field_nivel_de_seguranca
+field_name: field_nivel_de_seguranca
+entity_type: node
+bundle: parque_de_diversao
+label: 'Nível de segurança'
+description: 'Selecione o nível de segurança que o parque passa'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nivel_de_seguranca: nivel_de_seguranca
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: df0c0b8e-4e51-46f8-b4ab-25e8a2b966d0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localizacao_da_cachoeira
+    - node.type.cachoeira
+    - taxonomy.vocabulary.localizacao
+id: node.cachoeira.field_localizacao_da_cachoeira
+field_name: field_localizacao_da_cachoeira
+entity_type: node
+bundle: cachoeira
+label: 'Localização da cachoeira'
+description: 'Selecione a localização da cachoeira'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      localizacao: localizacao
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

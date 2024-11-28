@@ -1,0 +1,20 @@
+uuid: a8a8cc0d-30a4-431c-ad8d-efde5151df93
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_nivel_de_seguranca
+field_name: field_nivel_de_seguranca
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

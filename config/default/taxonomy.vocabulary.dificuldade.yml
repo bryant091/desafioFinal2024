@@ -1,0 +1,9 @@
+uuid: 96722586-865d-4f94-800b-1abd75af2334
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Dificuldade
+vid: dificuldade
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,22 @@
+uuid: c48e8029-1167-4b2d-bb90-80a89e864aeb
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: padrao_parque_de_diversao_node
+label: 'padrão parque de diversão node'
+type: 'canonical_entities:node'
+pattern: 'parque/[node:title]'
+selection_criteria:
+  288c817a-e82d-4de1-9401-260963abb1a2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 288c817a-e82d-4de1-9401-260963abb1a2
+    context_mapping:
+      node: node
+    bundles:
+      parque_de_diversao: parque_de_diversao
+selection_logic: and
+weight: -5
+relationships: {  }

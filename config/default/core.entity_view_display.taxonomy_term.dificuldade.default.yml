@@ -1,0 +1,22 @@
+uuid: 822b289e-3518-4b99-b128-95495f79108e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.dificuldade
+  module:
+    - text
+id: taxonomy_term.dificuldade.default
+targetEntityType: taxonomy_term
+bundle: dificuldade
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

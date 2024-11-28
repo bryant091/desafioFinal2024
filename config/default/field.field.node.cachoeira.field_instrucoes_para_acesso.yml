@@ -1,0 +1,24 @@
+uuid: 687eb3dd-c0c7-4692-bbde-cb8a2a5aec5e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instrucoes_para_acesso
+    - filter.format.basic_html
+    - node.type.cachoeira
+  module:
+    - text
+id: node.cachoeira.field_instrucoes_para_acesso
+field_name: field_instrucoes_para_acesso
+entity_type: node
+bundle: cachoeira
+label: 'Instruções para acesso'
+description: 'Instruções de acesso a cachoeira'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

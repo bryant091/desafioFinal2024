@@ -1,0 +1,13 @@
+uuid: ca163113-405a-4139-a5b9-5c61ba13bfe7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: KgGJDZFpMaz_8bTv6fN1bXS3Qi5LWmRJI9R53kEGsNQ
+id: node.teaser
+label: Chamada
+description: ''
+targetEntityType: node
+cache: true

@@ -1,0 +1,29 @@
+uuid: c0cf2e16-05db-423e-a8a2-8dfaee36b43c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dificuldade_de_acesso
+    - node.type.cachoeira
+    - taxonomy.vocabulary.dificuldade
+id: node.cachoeira.field_dificuldade_de_acesso
+field_name: field_dificuldade_de_acesso
+entity_type: node
+bundle: cachoeira
+label: 'Dificuldade de acesso'
+description: 'Selecione a dificuldade de acesso a cachoeira'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      dificuldade: dificuldade
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

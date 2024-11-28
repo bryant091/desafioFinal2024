@@ -1,0 +1,29 @@
+uuid: f8887fa6-b462-4e74-8e3f-fe358b145a34
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.listagem_de_parques
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__listagem_de_parques_block_2
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:listagem_de_parques-block_2'
+settings:
+  id: 'views_block:listagem_de_parques-block_2'
+  label: 'Últimos parques cadastrados'
+  label_display: visible
+  provider: views
+  views_label: 'Últimos parques cadastrados'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /parques

@@ -1,0 +1,22 @@
+uuid: 8c4ab4ba-621a-48f2-844d-aa3fd652a00f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: padrao_cachoeira_node
+label: 'padrão cachoeira node'
+type: 'canonical_entities:node'
+pattern: 'cachoeira/[node:title]'
+selection_criteria:
+  99ab0bc9-54f9-4df3-b12e-3ccd95e45483:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 99ab0bc9-54f9-4df3-b12e-3ccd95e45483
+    context_mapping:
+      node: node
+    bundles:
+      cachoeira: cachoeira
+selection_logic: and
+weight: -5
+relationships: {  }

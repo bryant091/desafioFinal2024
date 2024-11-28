@@ -1,0 +1,9 @@
+uuid: a320446f-0d48-4529-bf2f-7357c4b5e233
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Nível de segurança'
+vid: nivel_de_seguranca
+description: null
+weight: 0
+new_revision: false

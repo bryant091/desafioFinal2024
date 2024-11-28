@@ -1,0 +1,18 @@
+uuid: 24a689c1-4390-475a-af45-ccd7fd2d3286
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Cachoeira
+type: cachoeira
+description: 'tipo de conteúdo para cadastro de cachoeira'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

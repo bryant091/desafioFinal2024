@@ -1,0 +1,30 @@
+uuid: dc504dd2-48fe-4256-ab2c-509fd3725ddf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.listagem_de_cachoeiras
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__listagem_de_cachoeiras_block_3
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:listagem_de_cachoeiras-block_3'
+settings:
+  id: 'views_block:listagem_de_cachoeiras-block_3'
+  label: 'Cachoeiras relacionadas'
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: 'Cachoeiras relacionadas'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/cachoeira/*'

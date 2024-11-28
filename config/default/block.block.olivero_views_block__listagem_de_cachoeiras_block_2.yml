@@ -1,0 +1,29 @@
+uuid: 09a6c78e-bcf8-42f1-a544-159f4487d357
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.listagem_de_cachoeiras
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__listagem_de_cachoeiras_block_2
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:listagem_de_cachoeiras-block_2'
+settings:
+  id: 'views_block:listagem_de_cachoeiras-block_2'
+  label: 'Últimas cachoeiras cadastradas'
+  label_display: visible
+  provider: views
+  views_label: 'Últimas cachoeiras cadastradas'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /cachoeiras
